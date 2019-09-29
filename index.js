@@ -9,7 +9,7 @@ import {
 export default class Hello360 extends React.Component {
   render() {
     return (
-      <span>
+     
         <View style={styles.panel}>
           <View style={styles.greetingBox}>
             <Text style={styles.greeting}>
@@ -21,18 +21,8 @@ export default class Hello360 extends React.Component {
           
           </View>
         </View>
-        <View style={styles.panel}>
-        <View style={styles.greetingBox}>
-          <Text style={styles.greeting}>
-            HiveAndFive 
-          </Text>
-          <Text style={styles.greeting}>
-            A web in 360 
-          </Text>
-          
-        </View>
-      </View>
-     </span>
+       
+    
     );
   }
 };
